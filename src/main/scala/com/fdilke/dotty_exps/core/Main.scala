@@ -1,3 +1,5 @@
+package com.fdilke.dotty_exps.core
+
 object Main {
 
   def main(args: Array[String]): Unit = {
