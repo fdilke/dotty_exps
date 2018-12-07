@@ -10,9 +10,9 @@ lazy val root = project
 
     libraryDependencies ++= Seq(
       "com.novocode" % "junit-interface" % "0.11" % "test"
-//      ("org.typelevel" %% "cats" % "0.9.0").withDottyCompat(scalaVersion.value)
     ) ++ Seq(
-      "org.scalamock" %% "scalamock-scalatest-support" % "3.6.0" % "test",
+      "org.typelevel" %% "cats" % "0.9.0"
+//      "org.scalamock" %% "scalamock-scalatest-support" % "3.6.0" % "test"
 //      "org.scalactic" %% "scalactic" % "3.0.5" % "test",
 //      "org.scalatest" %% "scalatest" % "3.0.5" % "test"
     ).map { dependency =>
